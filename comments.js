@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const sideVideo = require('./Data/sideVideo.json')
 const mainVideo = require('./Data/mainVideo.json')
-const uuid = require('uuid/v4')
+const uuid = require('uuidv4')
 
 
 router.get ('/', (req,res) => {
